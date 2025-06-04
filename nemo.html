@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nemo | Shadcn Style</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f1f5f9;
+      margin: 0;
+      padding: 0;
+      color: #1e293b;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 0.5rem;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .card-header {
+      text-align: center;
+      padding: 1.5rem 1rem 1rem;
+    }
+
+    .card-header h1 {
+      font-size: 2rem;
+      margin: 0 0 0.5rem;
+    }
+
+    .card-header p {
+      margin: 0;
+      color: #475569;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .card-content {
+      padding: 1rem 1.5rem 2rem;
+      line-height: 1.6;
+    }
+
+    .card-content h2 {
+      margin-top: 1rem;
+      margin-bottom: 0.5rem;
+      font-size: 1.25rem;
+    }
+
+    .card-content ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+
+    .footer-image {
+      padding: 0 1.5rem 1.5rem;
+    }
+
+    .footer-image img {
+      width: 100%;
+      border-radius: 0 0 0.5rem 0.5rem;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body { background-color: #0f172a; color: #f1f5f9; }
+      .card { background-color: #1e293b; border-color: #334155; }
+      .card-header p { color: #94a3b8; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        <h1>All About Nemo</h1>
+        <p>The adventurous clownfish from Pixar's <em>Finding Nemo</em>.</p>
+      </div>
+      <img src="https://upload.wikimedia.org/wikipedia/en/9/9f/Finding_Nemo.jpg" alt="Nemo from Finding Nemo">
+      <div class="card-content">
+        <h2>Who is Nemo?</h2>
+        <p>Nemo is a young clownfish who lives in the Great Barrier Reef. His journey begins when he's captured by a diver and placed in a fish tank, prompting his father Marlin to cross the ocean in search of him.</p>
+        <h2>Fun Facts</h2>
+        <ul>
+          <li>Nemo was voiced by Alexander Gould.</li>
+          <li>The film <em>Finding Nemo</em> won the Academy Award for Best Animated Feature in 2004.</li>
+          <li>Clownfish live among sea anemones, which protect them from predators.</li>
+        </ul>
+      </div>
+      <div class="footer-image">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Coral_Reef_in_Bonaire.JPG" alt="Colorful coral reef">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
